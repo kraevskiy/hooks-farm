@@ -41,10 +41,3 @@
   position: relative;
   overflow: scroll;
 }
-
-.bottom {
-  grid-column: 2;
-  grid-row: 3;
-  background-color: cornsilk;
-  border-top: cadetblue solid 1px;
-}

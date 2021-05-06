@@ -1,5 +1,4 @@
-import React       from 'react'
-import {useToggle} from './UseToggle'
+import {useToggle} from './useToggle'
 
 function ToggleButton({
   toggled,
