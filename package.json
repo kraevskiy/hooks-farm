@@ -1,7 +1,7 @@
 {
   "name": "hooks-farm",
   "version": "0.1.0",
-  "author" : "kraevskiy",
+  "author": "kraevskiy",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",
@@ -10,10 +10,12 @@
     "@types/node": "^15.0.2",
     "@types/react": "^17.0.5",
     "@types/react-dom": "^17.0.3",
+    "date-fns": "^2.21.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
     "typescript": "^4.2.4",
+    "uuidv4": "^6.2.7",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
