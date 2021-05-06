@@ -3,6 +3,7 @@ import Ch_2 from './Ch_2'
 import Ch_3 from './Ch_3'
 import Ch_4 from './Ch_4'
 import Ch_5 from './Ch_5'
+import Ch_6 from './Ch_6'
 
 export const chapters =  {
   ch_1: {
@@ -24,5 +25,9 @@ export const chapters =  {
   ch_5: {
     name     : 'UseLocalStorage',
     component: Ch_5
+  },
+  ch_6: {
+    name     : 'UseWindowSize',
+    component: Ch_6
   }
 }
