@@ -21,6 +21,14 @@ const Ch_2 = () => {
 
   useEventListener('mousemove', onMouseMove)
 
+  const onKeyDown = useCallback((event) => {
+    if(event.key === 'Backspace'){
+      setCoords([])
+    }
+  }, [])
+
+  useEventListener('keydown', onKeyDown)
+
   return (
     <>
       <h2>UseEventListener</h2>
