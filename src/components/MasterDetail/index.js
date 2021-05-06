@@ -1,5 +1,6 @@
 import {useEffect, useState} from 'react'
 import cls                   from './style.module.css'
+import {ConsoleViewer}       from '../ConsoleViewer'
 
 const MasterDetail = ({content}) => {
   const [ chapterId, setChapterId ] = useState('')
@@ -29,6 +30,10 @@ const MasterDetail = ({content}) => {
       <div className={cls.detail}>
         {Detail ? <Detail/> : null}
       </div>
+      <div className={cls.bottom}>
+        <ConsoleViewer />
+      </div>
+
     </div>
   )
 }
