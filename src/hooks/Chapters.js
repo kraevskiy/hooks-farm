@@ -5,6 +5,7 @@ import Ch_4 from './Ch_4'
 import Ch_5 from './Ch_5'
 import Ch_6 from './Ch_6'
 import Ch_7 from './Ch_7'
+import Ch_8 from './Ch_8'
 
 export const chapters =  {
   ch_1: {
@@ -34,5 +35,9 @@ export const chapters =  {
   ch_7: {
     name     : 'UseAsync / UseAnimatedText',
     component: Ch_7
+  },
+  ch_8: {
+    name     : 'UsePrevious',
+    component: Ch_8
   }
 }
