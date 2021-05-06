@@ -4,6 +4,7 @@ import Ch_3 from './Ch_3'
 import Ch_4 from './Ch_4'
 import Ch_5 from './Ch_5'
 import Ch_6 from './Ch_6'
+import Ch_7 from './Ch_7'
 
 export const chapters =  {
   ch_1: {
@@ -29,5 +30,9 @@ export const chapters =  {
   ch_6: {
     name     : 'UseWindowSize',
     component: Ch_6
+  },
+  ch_7: {
+    name     : 'UseAsync / UseAnimatedText',
+    component: Ch_7
   }
 }
