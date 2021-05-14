@@ -1,12 +1,13 @@
-import Ch_1 from './Ch_1'
-import Ch_2 from './Ch_2'
-import Ch_3 from './Ch_3'
-import Ch_4 from './Ch_4'
-import Ch_5 from './Ch_5'
-import Ch_6 from './Ch_6'
-import Ch_7 from './Ch_7'
-import Ch_8 from './Ch_8'
-import Ch_9 from './Ch_9'
+import Ch_1  from './Ch_1'
+import Ch_2  from './Ch_2'
+import Ch_3  from './Ch_3'
+import Ch_4  from './Ch_4'
+import Ch_5  from './Ch_5'
+import Ch_6  from './Ch_6'
+import Ch_7  from './Ch_7'
+import Ch_8  from './Ch_8'
+import Ch_9  from './Ch_9'
+import Ch_10 from './Ch_10'
 
 export const chapters =  {
   ch_1: {
@@ -44,5 +45,9 @@ export const chapters =  {
   ch_9: {
     name     : 'UseHistory',
     component: Ch_9
+  },
+  ch_10: {
+    name     : 'UseElementSize',
+    component: Ch_10
   }
 }
