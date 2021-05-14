@@ -6,6 +6,7 @@ import Ch_5 from './Ch_5'
 import Ch_6 from './Ch_6'
 import Ch_7 from './Ch_7'
 import Ch_8 from './Ch_8'
+import Ch_9 from './Ch_9'
 
 export const chapters =  {
   ch_1: {
@@ -39,5 +40,9 @@ export const chapters =  {
   ch_8: {
     name     : 'UsePrevious',
     component: Ch_8
+  },
+  ch_9: {
+    name     : 'UseHistory',
+    component: Ch_9
   }
 }
