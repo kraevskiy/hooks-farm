@@ -9,6 +9,7 @@ import Ch_8  from './Ch_8'
 import Ch_9  from './Ch_9'
 import Ch_10 from './Ch_10'
 import Ch_11 from './Ch_11'
+import Ch_12 from './Ch_12'
 
 export const chapters =  {
   ch_1: {
@@ -54,5 +55,9 @@ export const chapters =  {
   ch_11: {
     name     : 'UseInterval',
     component: Ch_11
+  },
+  ch_12: {
+    name     : 'UseTimeout',
+    component: Ch_12
   }
 }
